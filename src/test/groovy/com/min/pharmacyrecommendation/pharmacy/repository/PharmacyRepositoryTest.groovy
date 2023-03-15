@@ -8,6 +8,7 @@ import spock.lang.Specification
 import java.time.LocalDateTime
 
 class PharmacyRepositoryTest extends AbstractIntegrationContainerBaseTest {
+
     @Autowired
     private PharmacyRepository pharmacyRepository
 
