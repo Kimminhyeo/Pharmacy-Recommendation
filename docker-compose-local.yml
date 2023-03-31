@@ -21,4 +21,4 @@ services:
       - ./database/config:/etc/mysql/conf.d
       - ./database/init:/docker-entrypoint-initdb.d
     ports:
-      - "3308:3308"
+      - "4000:4000"

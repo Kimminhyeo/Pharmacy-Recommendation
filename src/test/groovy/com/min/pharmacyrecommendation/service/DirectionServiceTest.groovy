@@ -1,8 +1,10 @@
-package com.min.pharmacyrecommendation.direction.service
+package com.min.pharmacyrecommendation.service
 
 import com.min.pharmacyrecommendation.api.dto.DocumentDto
 import com.min.pharmacyrecommendation.api.service.KakaoCategorySearchService
 import com.min.pharmacyrecommendation.direction.repository.DirectionRepository
+import com.min.pharmacyrecommendation.direction.service.Base62Service
+import com.min.pharmacyrecommendation.direction.service.DirectionService
 import com.min.pharmacyrecommendation.pharmacy.dto.PharmacyDto
 import com.min.pharmacyrecommendation.pharmacy.service.PharmacySearchService
 import spock.lang.Specification

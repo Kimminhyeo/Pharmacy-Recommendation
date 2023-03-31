@@ -1,5 +1,6 @@
-package com.min.pharmacyrecommendation.direction.service
+package com.min.pharmacyrecommendation.service
 
+import com.min.pharmacyrecommendation.direction.service.Base62Service
 import spock.lang.Specification
 
 class Base62ServiceTest extends Specification {
